@@ -1,0 +1,449 @@
+* {
+    background-color: rgba(75, 71, 71, 0.986);
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}@media only screen and (max-width:550px) {
+    .bod ,#img {
+        
+        padding-inline: 20px;
+    }
+}
+
+header {
+    display: flex;
+    
+} 
+#demo img {
+    height: 700px;
+    width: 350px;
+    margin: 10px;
+    background-size: cover;
+    border-radius: 50px;
+    border: 2px solid rgb(9, 255, 0);
+    
+
+}  
+@media only screen and (max-width:550px) {
+    #demo img {
+        width: 200px;
+        height: 400px;
+        display: inline-block;
+        margin: 10px;
+        background-size: cover;
+        border-radius: 50px;
+        border: 2px solid rgb(9, 255, 0);
+    }
+    
+}
+
+@media only screen and (max-width:550px) {
+    #header {
+        padding: 3px;
+        margin:0;
+    }
+}
+@media only screen and (max-width:550px) {
+     .button {
+    font-size: 5rem;}}
+
+header div  {
+display: inline;
+align-items: center;
+}
+header div .mpn {
+    color: rgb(9, 255, 0);
+    font-size: 2rem;
+}
+@media only screen and (max-width:550px) {
+   header div .mpn {font-size: 1.3rem;
+        
+    }
+}
+@media only screen and (max-width:550px) {
+   header div #mp { font-size: 1.3rem;
+        
+    }
+}
+header div .mp {
+    color: white;
+    font-size: 2rem;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+button {
+    text-decoration: none;
+    padding-inline: 20px;
+    font-size: 1.5rem;
+    color: white;
+    border: none;
+
+}
+@media only screen and (max-width:550px) {
+    button {
+        text-decoration: none;
+        padding-inline: 5px;
+        font-size: 1rem;
+        color: white;
+        border: none;
+        display: block;
+        height: 20px;
+        
+    
+    }
+    
+}
+@media only screen and (max-width:550px){
+    .link {
+        height: 20px;
+        overflow: hidden;
+        position: absolute;
+        right: 0px;
+        top :10px;
+    }
+}
+
+@media only screen and (max-width:550px) {
+    .link:hover {
+        height: 100px;
+         z-index: 1;
+    }
+}
+button:hover {
+color: rgb(47, 255, 47);
+text-shadow: 0px 0px 4px greenyellow;
+text-decoration: underline;
+}
+section {
+    display: flex;
+}
+@media only screen and (max-width:550px) {
+     section  {
+    display: block;
+    
+}}
+@media only screen and (max-width:550px) {
+     .ul {
+    display: flex;
+    padding-block:0px ;
+    
+}}
+ 
+section #nav img {
+    display: inline;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    width: 50px;
+    animation: fedain 3s ease forwards 1  ;
+}
+@keyframes fedain {
+    0% {transform: translateY(-100px);}
+   100% {transform: translateY(0px);}
+}
+@keyframes roll {
+    0% {transform: translateY(50px);}
+   100% {transform: translateY(0px);}
+}
+@keyframes roll2 {
+    0% {transform: translateX(-50px);}
+   100% {transform: translateX(0px);}
+}
+@keyframes roll3 {
+    0% {transform: translateY(-60px);}
+   100% {transform: translateY(0px);}
+}
+@keyframes roll4 {
+    0% {opacity: 0;}
+   100% {opacity: 100%;}
+}
+section #nav {
+    display: inline;
+    flex-direction: column;
+    justify-content: end;
+    gap: 20PX;
+    
+    background-color: white;
+    margin-right: 20px;
+    height: 500px;
+    
+}
+section  #img img{
+    height: 300px;
+    width: 250px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 70px rgb(47, 255, 75) 
+    ,0px 0px 12px rgb(6, 238, 37);
+    border: 4px solid rgb(47, 255, 75);
+    margin: 10px;
+    animation: roll 5s ease alternate infinite  ;
+    
+}
+@media only screen and (max-width:550px) {
+    section  #img img{
+        height: 200;
+        width: 70%;
+        border-radius: 50%;
+        box-shadow: 0px 0px 70px rgb(47, 255, 75) 
+        ,0px 0px 12px rgb(6, 238, 37);
+        border: 4px solid rgb(47, 255, 75);
+        margin: 10px;
+        animation: roll 5s ease alternate infinite  ;
+        
+    }
+}
+#nav a {
+    border-radius: 50px;
+
+}
+#demo {
+    animation: roll4 4s ease forwards 1  ;
+    
+}
+#nav a:hover {
+    box-shadow: 0px 0px 7px rgb(47, 255, 57);
+}
+section .bod {
+    max-height: 500px;
+    overflow:auto;
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    font-size: 1.3rem;
+    
+}
+@media only screen and (max-width:550px) {
+    section .bod {
+        max-height: 300px;
+        overflow:auto;
+        display: flex;
+        color: white;
+        justify-content: space-around;
+        font-size: 1rem;
+        
+}}
+
+#srv {
+    width: 200px;
+    color: rgb(0, 255, 115);
+    font-weight: 700;
+}
+@media only screen and (max-width:550px) {
+    .great {
+        font-size: 1rem;
+        display: block;
+        animation: roll2 3s ease forwards 1  ;
+        margin-top: 30px;
+    }
+}
+.great {
+    font-size: 1.2rem;
+    display: block;
+    animation: roll2 3s ease forwards 1  ;
+    margin-top: 30px;
+}
+.myn {
+    display: block;
+    font-weight: 800;
+    font-size: 2rem;
+    animation: roll2 5s ease forwards 1  ;
+}
+@media only screen and (max-width:550px){
+    .myn {
+        display: block;
+        font-weight: 600;
+        font-size: 1.4rem;
+}}
+.profection {
+    font-weight: 700;
+    font-size: 1.4rem;
+    padding-block: 10px;
+    align-items: baseline;
+}
+@media only screen and (max-width:550px) {
+    .profection {
+        font-weight: 500;
+        font-size: 1.1rem;
+        padding-block: 10px;
+}}
+
+
+button {
+    
+    animation: roll3 3s ease forwards 1  ;
+    
+}
+
+.butt {
+    display: inline;
+    background: linear-gradient(0deg, #FFFFFF, #DDDDDD);
+    border-radius: 50%;
+    line-height: 50px;
+    
+    color: #262626;
+    transition: .5s;
+    box-sizing: border-box;
+    
+}
+@media only screen and (max-width:550px) {
+    .bb {
+        background-color: #fdfcfd;
+        border-radius: 50%;
+        
+        background: linear-gradient(0deg, #d6d0d0, #DDDDDD);
+        width: 50px;
+        height: 20px;
+        margin: 10px;
+        margin-left: 10%;
+}}
+.bb {
+    background-color: #fdfcfd;
+    border-radius: 50%;
+    padding: 10px;
+    background: linear-gradient(0deg, #d6d0d0, #DDDDDD);
+    width: 115px;
+    margin: 30px;
+    margin-left: 20%;
+    
+}
+.button {
+    display: flex;
+}
+
+.bb a {
+    background: #DDDDDD;
+    text-decoration: none;
+    border-radius: 50%;
+    padding: 10px;
+    background: linear-gradient(0deg, #DDDDDD, #FFFFFF);
+    color: rgb(8, 8, 8);
+}
+@media only screen and (max-width:550px) {
+    .bb a {
+        background: #DDDDDD;
+        text-decoration: none;
+        border-radius: 50%;
+        position: absolute;
+        padding: 3px;
+        font-size: 1rem;
+}}
+@media only screen and (max-width:550px) {
+    .button {
+        display: block;
+    }
+}
+@media only screen and (min-width:550px) {
+    .menu {display: none;
+
+    }
+}
+.bb a:hover {
+    padding: 5px;
+    color: rgb(5, 156, 26);
+}
+
+  .ul .li {
+    
+    padding-block: 0px;
+    list-style: none;
+    background-color: white;
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    animation: fedain 5s ease alternate 1  ;
+}
+@media only screen and (min-width:550px) {
+     #li  {
+        padding-block: 20px;
+        
+    }
+}
+  
+  .ul .li a {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    display: block;
+    text-align: center;
+    margin: 0 10px;
+    
+    border-radius: 50%;
+    padding: 6px;
+    box-sizing: border-box;
+    text-decoration: none;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, .3);
+    background: linear-gradient(0deg, #DDDDDD, #FFFFFF);
+    transition: .5s;
+    
+  }
+  
+  .ul .li a:hover {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .3);
+  }
+  
+  .ul .li a .fa {
+    width: 100%;
+    height: 100%;
+    display: block;
+    background: linear-gradient(0deg, #FFFFFF, #DDDDDD);
+    border-radius: 50%;
+    line-height: 50px;
+    font-size: 24px;
+    color: #262626;
+    transition: .5s;
+  }
+  
+  .ul .li:nth-child(1) a:hover .fa {
+    color: #3B5998;
+  }
+  .ul .li:nth-child(2) a:hover .fa {
+    color: #00ACED;
+  }
+  .ul .li:nth-child(3) a:hover .fa {
+    color: #DD4B39;
+  }
+  .ul .li:nth-child(4) a:hover .fa {
+    color: #007BB6;
+  }
+  .ul .li:nth-child(5) a:hover .fa {
+    color: #BC2A8D;
+  }
+p {
+    color: #FFFFFF;
+}
+#tik {
+    font-size: 1.7rem;
+    color: black;
+    background-color: white;
+    border-radius: 50%;
+    
+    width: 100%;
+    height: 100%;
+    display: block;
+    background: linear-gradient(0deg, #FFFFFF, #DDDDDD);
+    border-radius: 50%;
+    line-height: 50px;
+    font-size: 24px;
+    color: #262626;
+    transition: .5s;
+}
+#call {
+    
+    font-size: 1.7rem;
+    color: black;
+    background-color: white;
+    border-radius: 50%;
+    
+    width: 100%;
+    height: 100%;
+    display: block;
+    background: linear-gradient(0deg, #FFFFFF, #DDDDDD);
+    border-radius: 50%;
+    line-height: 50px;
+    font-size: 24px;
+    color: #262626;
+}
